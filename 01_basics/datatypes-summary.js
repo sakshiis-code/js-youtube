@@ -17,7 +17,7 @@ const anotherId = Symbol('123')
 
 console.log(id == anotherId);
 
-// const bigNumber = 2314567892543013245n
+const bigNumber = 2314567892543013245n
 
 
 
@@ -41,3 +41,19 @@ console.log(typeof myFunction); // function
 console.log(typeof myObj);  // object
 console.log(typeof person);     // object
 console.log(typeof id); // symbol
+
+
+// Return type of variables in JavaScript
+// 1) Primitive Datatypes
+// Number => number
+// String  => string
+// Boolean  => boolean
+// null  => object
+// undefined  =>  undefined
+// Symbol  =>  symbol
+// BigInt  =>  bigint
+
+// 2) Non-primitive Datatypes
+// Arrays  =>  object
+// Function  =>  function
+// Object  =>  object
