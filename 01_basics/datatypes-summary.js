@@ -80,3 +80,7 @@ userTwo.email = "sarahs@google.com"
 
 console.log(userOne.email); // sarahs@google.com
 console.log(userTwo.email); // sarahs@google.com
+
+
+// Diagrammatic representation of Stack and Heap Memory
+// https://excalidraw.com/#json=nY2Daj76CeK3tVZqe4Hv8,-pQI783GHShXaOvwCdNJYQ
