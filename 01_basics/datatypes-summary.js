@@ -57,3 +57,26 @@ console.log(typeof id); // symbol
 // Arrays  =>  object
 // Function  =>  function
 // Object  =>  object
+
+
+// ++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non- Primitive)
+
+let myYoutubeName = "sakshiishdotcom"
+let anotherName = myYoutubeName
+anotherName = "coffeesimilie"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "sarahs@google.com"
+
+console.log(userOne.email); // sarahs@google.com
+console.log(userTwo.email); // sarahs@google.com
