@@ -43,4 +43,5 @@ if (loggedInFromGoogle || loggedInFromEmail) {
     console.log("User logged  in");
 }
 
+// conditional operators
 // <, >, <=, >=, ==, !=, ===, !==
